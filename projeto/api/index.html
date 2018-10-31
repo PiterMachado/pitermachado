@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+	<title>Projeto</title>
+</head>
+<style type="text/css">
+	*{
+		margin:0;
+		font-family: 'Roboto', sans-serif;
+		box-sizing: border-box;
+	}
+	header{
+		width:60%;
+		background-color: #1E88E5;
+		height: 130px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 6vmin;
+		color:white;
+	}
+	.cat{
+		display: flex;
+		justify-content: center;
+		width:60%;
+		padding: 15px;
+		background-color: #1565C0;
+		color:white;
+	}
+	.cat div{
+		flex-grow: 1;
+	}
+	.ativo{
+		font-weight: bold
+	}
+	.posts div{
+		background-color: #e5e5e5;
+		width:60%;
+		margin: 5px;
+		padding: 50px;
+	}
+	button{
+		border:none;
+		padding: 10px;
+	}
+</style>
+<body>
+	<center>
+	<div class="principal">
+		<header>Meu Blog</header>
+		<div class="cat" id="cat">
+		</div>
+		<div class="posts">
+		</div>
+		<div class="button"><a href="index.html"><button>Mostrar Tudo</button></a></div>
+	</div>
+</center>
+	<script src="main.js"></script>
+	<script src="get.js"></script>
+</body>
+</html>
