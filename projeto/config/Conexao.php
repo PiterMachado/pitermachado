@@ -1,7 +1,7 @@
 <?php
 class Conexao{
 	private $host = 'localhost';
-	private $dbname = 'bancoblog';
+	private $dbname = 'blog';
 	private $user = 'root';
 	private $pass = '';
 	private $conexao;
